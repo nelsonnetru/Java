@@ -9,7 +9,7 @@ public class Class_6
 
         System.out.print("Введите a: ");
         int a = iScanner.nextInt();
-
+        
         System.out.print("Введите b: ");
         int b = iScanner.nextInt();
         iScanner.close();
