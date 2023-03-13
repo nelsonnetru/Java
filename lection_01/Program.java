@@ -7,7 +7,7 @@ public class Program
         System.out.println(Integer.MAX_VALUE);
 
         Scanner iScanner = new Scanner(System.in);
-        System.out.printf("Введите текст: ");
+        System.out.print("Введите текст: ");
         String str = iScanner.nextLine();
 
         System.out.println("Введено: " + str);

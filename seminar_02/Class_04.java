@@ -19,7 +19,6 @@ public class Class_04
         catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
-
     }
 
     public static String hundredTest (int col, String word) {
