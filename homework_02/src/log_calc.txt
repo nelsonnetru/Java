@@ -1,0 +1,8 @@
+Mar 13, 2023 1:56:34 PM Class_04 calc
+WARNING: CALC_ERROR: 7.0;9;9.0 // Unknown operation!
+Mar 13, 2023 1:56:46 PM Class_04 calc
+WARNING: CALC_ERROR: 0.0;l;4.0 // Unknown operation!
+Mar 13, 2023 1:56:56 PM Class_04 calc
+WARNING: CALC_ERROR: 2.0;/;0.0 // Division by zero!
+Mar 13, 2023 1:57:33 PM Class_04 calc
+INFO: CALC: 7.0;*;8.0;56.0

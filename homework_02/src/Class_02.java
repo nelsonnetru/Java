@@ -2,8 +2,8 @@
 
 import java.util.Arrays;
 import java.util.Random;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.logging.*;
+import java.io.IOException;
 
 public class Class_02 {
     public static int maxValueForRandom = 10;
@@ -13,14 +13,27 @@ public class Class_02 {
         maxValueForRandom = 55;
         fillRandomArray(maxValueForRandom, arrayForSort);
         System.out.print("Start array:\n" + Arrays.toString(arrayForSort) + "\n");
-        sortArrayBubble(arrayForSort);
 
-
-        Logger logger = new Logger.getLogger();
-        logger.setLevel(Level.INFO););
+        try {
+            sortArrayBubble(arrayForSort);
+        }
+        catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
     }
 
-    public static void sortArrayBubble(int[] arr) {
+    public static void sortArrayBubble(int[] arr) throws IOException {
+        Logger logger = Logger.getLogger(Class_02.class.getName());
+        logger.setLevel(Level.INFO);
+
+        FileHandler fHandler = new FileHandler ("log_sort.txt");
+        logger.addHandler(fHandler);
+
+        SimpleFormatter sFormat = new SimpleFormatter();
+        fHandler.setFormatter(sFormat);
+
+        logger.info(Arrays.toString(arr));
+
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < (arr.length - i - 1); j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -29,7 +42,7 @@ public class Class_02 {
                     arr[j + 1] = tmp;
                 }
             }
-            System.out.println(Arrays.toString(arr));
+            logger.info(Arrays.toString(arr));
         }
     }
 
