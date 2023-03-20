@@ -34,7 +34,7 @@ public class Class_03
     }
 
     public static ArrayList<String> parseJsonString (String strJson) {
-        ArrayList<String> resultList = new ArrayList<String>();
+        ArrayList<String> resultList = new ArrayList<>();
         StringBuilder workingString = new StringBuilder(strJson.trim());
         int startItemIndex = workingString.indexOf("{");
         int endItemIndex = workingString.indexOf("}");
