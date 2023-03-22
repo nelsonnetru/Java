@@ -61,15 +61,13 @@ public class Class_03 {
                 if (aScanner.hasNextFloat()) {
                     bDigit = aScanner.nextFloat();
                 } else {
-                    if (aScanner.hasNextLine()) {
-                        String bString = aScanner.next();
-                        if (bString.equals("mem")) bDigit = memoryResult;
+                    String bString = aScanner.next();
+                    if (bString.equals("mem")) bDigit = memoryResult;
+                    else {
+                        if (analyzeDoing(bString, tmpLog)) continue;
                         else {
-                            if (analyzeDoing(bString, tmpLog)) continue;
-                            else {
-                                aScanner.close();
-                                return;
-                            }
+                            aScanner.close();
+                            return;
                         }
                     }
                 }
