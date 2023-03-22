@@ -1,0 +1,68 @@
+﻿мар. 22, 2023 5:17:19 PM Class_03 calc
+INFO: CALC: 12.0;+;5.0;17.0
+мар. 22, 2023 5:17:44 PM Class_03 calc
+INFO: CALC: 17.0;+;3.0;20.0
+мар. 22, 2023 5:18:09 PM Class_03 calc
+WARNING: CALC_ERROR: 12.0;/;0.0 // Division by zero!
+мар. 22, 2023 5:18:13 PM Class_03 calc
+WARNING: CALC_UNDO: 0.0;u;9.0 // Undo operation.
+мар. 22, 2023 5:20:09 PM Class_03 calc
+WARNING: CALC_ERROR: 12.0;%;6.0 // Unknown operation!
+мар. 22, 2023 5:24:25 PM Class_03 calc
+INFO: CALC: 20.0;/;5.0;4.0
+мар. 22, 2023 5:24:32 PM Class_03 calc
+WARNING: CALC_UNDO: 20.0;u;5.0 // Undo operation.
+мар. 22, 2023 5:24:37 PM Class_03 calc
+WARNING: CALC_UNDO: 17.0;u;3.0 // Undo operation.
+мар. 22, 2023 5:25:03 PM Class_03 calc
+INFO: CALC: 17.0;+;3.0;20.0
+мар. 22, 2023 5:25:18 PM Class_03 calc
+INFO: CALC: 66.0;*;3.0;198.0
+мар. 22, 2023 5:25:36 PM Class_03 calc
+INFO: CALC: 1.0;/;3.0;0.33333334
+мар. 22, 2023 5:25:41 PM Class_03 calc
+WARNING: CALC_ERROR: 1.0;$;2.0 // Unknown operation!
+мар. 22, 2023 5:26:27 PM Class_03 calc
+WARNING: CALC_ERROR: 12.0;/;0.0 // Division by zero!
+мар. 22, 2023 5:28:00 PM Class_03 calc
+WARNING: CALC_UNDO: 1.0;u;3.0 // Undo operation.
+мар. 22, 2023 5:28:05 PM Class_03 calc
+WARNING: CALC_ERROR: 12.0;/;0.0 // Division by zero!
+мар. 22, 2023 5:28:24 PM Class_03 calc
+INFO: CALC: 5.0;/;198.0;0.025252525
+мар. 22, 2023 5:28:31 PM Class_03 calc
+INFO: CALC: 0.025252525;*;0.0;0.0
+мар. 22, 2023 5:41:03 PM Class_03 calc
+WARNING: CALC_UNDO: 0.025252525;u;0.0 // Undo operation.
+мар. 22, 2023 5:41:14 PM Class_03 calc
+WARNING: CALC_UNDO: 5.0;u;198.0 // Undo operation.
+мар. 22, 2023 5:41:23 PM Class_03 calc
+WARNING: CALC_UNDO: 1.0;u;3.0 // Undo operation.
+мар. 22, 2023 5:41:32 PM Class_03 calc
+INFO: CALC: 198.0;/;198.0;1.0
+мар. 22, 2023 5:42:14 PM Class_03 calc
+INFO: CALC: 1.0;/;1.0;1.0
+мар. 22, 2023 5:42:55 PM Class_03 calc
+INFO: CALC: 12.0;/;4.0;3.0
+мар. 22, 2023 5:44:19 PM Class_03 calc
+INFO: CALC: 5.0;+;6.0;11.0
+мар. 22, 2023 5:44:27 PM Class_03 calc
+INFO: CALC: 11.0;/;11.0;1.0
+мар. 22, 2023 5:44:39 PM Class_03 calc
+INFO: CALC: 5.0;/;3.0;1.6666666
+мар. 22, 2023 5:45:26 PM Class_03 calc
+WARNING: CALC_ERROR: 1.6666666;/;0.0 // Division by zero!
+мар. 22, 2023 5:45:29 PM Class_03 calc
+WARNING: CALC_UNDO: 5.0;u;3.0 // Undo operation.
+мар. 22, 2023 5:45:36 PM Class_03 calc
+WARNING: CALC_ERROR: 45.0;$;6.0 // Unknown operation!
+мар. 22, 2023 5:45:45 PM Class_03 calc
+INFO: CALC: 12.0;*;1.0;12.0
+мар. 22, 2023 5:45:53 PM Class_03 calc
+INFO: CALC: 12.0;/;12.0;1.0
+мар. 22, 2023 5:48:07 PM Class_03 calc
+WARNING: CALC_UNDO: 12.0;u;12.0 // Undo operation.
+мар. 22, 2023 5:48:32 PM Class_03 calc
+INFO: CALC: 12.0;*;9.0;108.0
+мар. 22, 2023 5:48:49 PM Class_03 calc
+INFO: CALC: 108.0;/;10.0;10.8
